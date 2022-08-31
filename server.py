@@ -1,6 +1,3 @@
-
-from itertools import count
-from unittest import result
 import bcrypt
 from flask import Flask, render_template,session,g,redirect,request,url_for,flash,send_file
 from flask_mail import Mail,Message
